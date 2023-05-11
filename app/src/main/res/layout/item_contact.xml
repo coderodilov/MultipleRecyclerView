@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/round_person_24"/>
+
+    <TextView
+        android:id="@+id/tvUserPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:text="+998 91-619-44-82"/>
+
+</LinearLayout>
